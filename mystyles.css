@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li a{
+    color:#fff;
+}
+
+.navbar{
+    background-color: rgb(13, 82, 13);
+}
+
+.logo{
+    width:60px;
+}
+.header-image{
+    background-color: red;
+    background-image: url(/images/xmas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-image .merry{
+    color: #fff;
+    font-size: 10em;
+    font-family: cursive;
+    padding-left: 20px;
+   
+}
+
+
+.header-image .xmas{
+    color: #fff;
+    font-size: 4em;
+    font-family: cursive;
+    padding-left: 20px;
+}
+
+.xm1, .xm2, .xm3, .xm4{
+ width: 100%;
+ border-bottom-left-radius: 30px;
+}
+
+.main-content{
+    padding: 20px;
+}
+
+.coolsanta{
+    width: 100%;
+    height: 500px;
+    border-bottom-left-radius: 60px;
+}
+
+.santaTitle{
+    font-weight: bolder;
+    color: rgb(13, 82, 13);
+    font-size: 4em;
+    font-family: cursive;
+}
+
+.santaMsg{
+    font-weight: bold;
+    color:rgb(13, 82, 13);
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.btn{
+    background-color:rgb(13, 82, 13)!important;
+    color: #fff!important;
+    font-weight: bold!important;
+}
+
+.btn:hover{
+    background-color: red!important;
+}
+
+.santa-vid-container{
+   display: flex;
+   padding: 20px;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.santaVid{
+    width: 100%;
+    border-radius:20px;
+    margin-top: 60px;
+    
+}
+
+.xmas-icons{
+    padding: 20px;
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+} 
+
+/* .fa-2xl{
+    color: green;
+}  */
+
+.ico{
+    width:20%!important;
+    border:2px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:#fff;
+}
+
+.ico:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+.center{
+    text-align: center;
+    background-color: green;
+}
+
+.footer-section{
+    background-color: green;
+    color: #fff;
+}
+
